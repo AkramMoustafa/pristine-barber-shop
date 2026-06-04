@@ -61,7 +61,7 @@ export default function About() {
           <div className="grid grid-cols-2 gap-px bg-stone-200">
             {[
               { num: 'Premium', label: 'Grooming studio' },
-              { num: 'Tue–Sat', label: 'Open 5 days a week' },
+              { num: 'Mon–Sun', label: 'Open 7 days a week' },
               { num: '100%', label: 'Precision-focused experience' },
               { num: 'MN', label: 'Proudly serving Plymouth' },
             ].map(({ num, label }) => (
@@ -97,7 +97,7 @@ export default function About() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Come See Us</h2>
           <p className="text-white mb-10 text-sm font-sans">
-            36 Nathan Ln N, Plymouth, MN — Tuesday through Saturday, 10 AM to 6 PM.
+            36 Nathan Ln N, Plymouth, MN — Monday through Sunday, 9 AM to 7 PM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

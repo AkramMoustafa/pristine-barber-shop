@@ -79,7 +79,7 @@ export default function Services() {
       <section className="py-20 px-4 bg-[#6F4E37]">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Book Your Appointment</h2>
-          <p className="text-white mb-8 text-sm font-sans">Tue – Sat, 10 AM to 6 PM. Walk-ins always welcome.</p>
+          <p className="text-white mb-8 text-sm font-sans">Mon – Fri 9 AM – 7 PM &nbsp;·&nbsp; Sat 9 AM – 5 PM &nbsp;·&nbsp; Sun 10 AM – 5 PM. Walk-ins always welcome.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={openBooking}

@@ -12,7 +12,7 @@ export default function Contact() {
           <h1 className="text-4xl sm:text-5xl text-black tracking-tight mb-4">Contact</h1>
           <div className="w-10 h-px bg-[#8B5E3C] mx-auto mb-4" />
           <p className="text-black max-w-sm mx-auto text-sm leading-relaxed">
-            Call us, stop in, or book online. We're here Tue–Sat, 10 AM to 6 PM.
+            Call us, stop in, or book online. We're here Mon–Sun, 9 AM to 7 PM.
           </p>
         </div>
       </section>
@@ -57,13 +57,13 @@ export default function Contact() {
               <p className="text-black text-xs uppercase tracking-wider mb-4 font-sans">Hours</p>
               <div className="space-y-2 text-sm font-sans">
                 {[
-                  { day: 'Tuesday', hours: '10:00 AM – 6:00 PM', open: true },
-                  { day: 'Wednesday', hours: '10:00 AM – 6:00 PM', open: true },
-                  { day: 'Thursday', hours: '10:00 AM – 6:00 PM', open: true },
-                  { day: 'Friday', hours: '10:00 AM – 6:00 PM', open: true },
-                  { day: 'Saturday', hours: '10:00 AM – 6:00 PM', open: true },
-                  { day: 'Sunday', hours: 'Closed', open: false },
-                  { day: 'Monday', hours: 'Closed', open: false },
+                  { day: 'Monday', hours: '9:00 AM – 7:00 PM', open: true },
+                  { day: 'Tuesday', hours: '9:00 AM – 7:00 PM', open: true },
+                  { day: 'Wednesday', hours: '9:00 AM – 7:00 PM', open: true },
+                  { day: 'Thursday', hours: '9:00 AM – 7:00 PM', open: true },
+                  { day: 'Friday', hours: '9:00 AM – 7:00 PM', open: true },
+                  { day: 'Saturday', hours: '9:00 AM – 5:00 PM', open: true },
+                  { day: 'Sunday', hours: '10:00 AM – 5:00 PM', open: true },
                 ].map(({ day, hours, open }) => (
                   <div key={day} className="flex justify-between items-center">
                     <span className="text-black">{day}</span>

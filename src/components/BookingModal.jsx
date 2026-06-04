@@ -76,12 +76,16 @@ export default function BookingModal() {
         <div className="border-t border-stone-200 px-8 py-4 bg-white">
           <p className="text-black text-xs uppercase tracking-wider mb-2 font-sans">Hours</p>
           <div className="flex justify-between text-sm font-sans">
-            <span className="text-black">Tue – Sat</span>
-            <span className="text-black">10:00 AM – 6:00 PM</span>
+            <span className="text-black">Mon – Fri</span>
+            <span className="text-black">9:00 AM – 7:00 PM</span>
           </div>
           <div className="flex justify-between text-sm mt-1 font-sans">
-            <span className="text-black">Sun – Mon</span>
-            <span className="text-black">Closed</span>
+            <span className="text-black">Saturday</span>
+            <span className="text-black">9:00 AM – 5:00 PM</span>
+          </div>
+          <div className="flex justify-between text-sm mt-1 font-sans">
+            <span className="text-black">Sunday</span>
+            <span className="text-black">10:00 AM – 5:00 PM</span>
           </div>
         </div>
       </div>

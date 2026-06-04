@@ -72,11 +72,13 @@ export default function Home() {
       </section>
 
       {/* Hours Banner */}
-      <section className="bg-[#6F4E37] text-white py-4 px-4">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-8 text-sm text-center font-sans">
-          <span>Tue – Sat &nbsp;·&nbsp; 10:00 AM – 6:00 PM</span>
+      <section className="bg-[#111111] text-white py-4 px-4">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6 text-sm text-center font-sans">
+          <span>Mon – Fri &nbsp;·&nbsp; 9:00 AM – 7:00 PM</span>
           <span className="hidden sm:block text-white/40">|</span>
-          <span className="text-white/60">Sun – Mon: Closed</span>
+          <span>Sat &nbsp;·&nbsp; 9:00 AM – 5:00 PM</span>
+          <span className="hidden sm:block text-white/40">|</span>
+          <span>Sun &nbsp;·&nbsp; 10:00 AM – 5:00 PM</span>
           <span className="hidden sm:block text-white/40">|</span>
           <a href="tel:+16464363213" className="underline underline-offset-2 hover:no-underline text-white">
             (646) 436-3213
@@ -144,7 +146,7 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-4">
             {[
               { num: 'Premium', label: 'Grooming experience' },
-              { num: 'Tue–Sat', label: '10 AM – 6 PM' },
+              { num: 'Mon–Sun', label: '9 AM – 7 PM' },
               { num: '100%', label: 'Precision craft' },
               { num: 'MN', label: 'Plymouth' },
             ].map(({ num, label }) => (
