@@ -37,7 +37,7 @@ export default function BookingModal() {
         </button>
 
         <div className="border-b border-stone-200 px-8 py-6">
-          <p className="text-stone-400 text-xs tracking-wider uppercase mb-1 font-sans">Barber's Den</p>
+          <p className="text-stone-400 text-xs tracking-wider uppercase mb-1 font-sans">Pristine Barber Studio</p>
           <h2 className="text-2xl text-black">Book an Appointment</h2>
         </div>
 
@@ -55,12 +55,12 @@ export default function BookingModal() {
           </a>
 
           <a
-            href="tel:+12315315120"
+            href="tel:+16464363213"
             className="flex items-center justify-between w-full border border-stone-200 hover:border-black px-6 py-4 transition-colors"
           >
             <div>
               <p className="font-sans font-normal text-sm tracking-wide uppercase text-black">Call Us</p>
-              <p className="text-stone-600 text-base mt-0.5 font-sans">(231) 531-5120</p>
+              <p className="text-stone-600 text-base mt-0.5 font-sans">(646) 436-3213</p>
             </div>
             <span className="text-2xl">📞</span>
           </a>
@@ -68,7 +68,7 @@ export default function BookingModal() {
           <div className="border border-stone-100 bg-stone-50 px-6 py-4">
             <p className="font-sans font-normal text-sm text-black mb-1">Walk-ins Welcome</p>
             <p className="text-stone-400 text-xs leading-relaxed font-sans">
-              3141 McCracken St, Norton Shores, MI 49441
+              36 Nathan Ln N, Plymouth, MN 55441
             </p>
           </div>
         </div>

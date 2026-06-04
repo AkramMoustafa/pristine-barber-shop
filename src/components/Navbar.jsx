@@ -35,8 +35,8 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-3 group">
             <span className="text-black text-xl">✂</span>
             <div className="leading-tight">
-              <div className="font-serif text-black font-normal text-lg tracking-normal">Barber's Den</div>
-              <div className="text-stone-400 text-xs tracking-wide uppercase font-sans font-normal">Norton Shores, MI</div>
+              <div className="font-serif text-black font-normal text-lg tracking-normal">Pristine Barber Studio</div>
+              <div className="text-stone-400 text-xs tracking-wide uppercase font-sans font-normal">Plymouth, MN</div>
             </div>
           </Link>
 

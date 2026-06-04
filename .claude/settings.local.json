@@ -3,7 +3,16 @@
     "allow": [
       "PowerShell(New-Item *)",
       "PowerShell(Start-Process \"http://localhost:5173\")",
-      "PowerShell(git config *)"
+      "PowerShell(git config *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\barber - Copy\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(node --input-type=module --eval \"import\\('./src/components/HeroCarousel.jsx'\\)\")",
+      "Bash(npx vite *)",
+      "Bash(npm run *)",
+      "Bash(Start-Sleep -Seconds 4)",
+      "Bash(Get-Content \"C:\\\\Users\\\\ammou\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--barber---Copy\\\\0892a9b3-3d87-4509-97b5-566190427ae3\\\\tasks\\\\b8i1fs4d7.output\" -Tail 20)"
     ]
   }
 }

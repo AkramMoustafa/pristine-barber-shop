@@ -4,18 +4,18 @@ import { useBooking } from '../context/BookingContext'
 const values = [
   {
     icon: '✂',
-    title: 'Traditional Craft',
-    desc: 'Precise cuts, clean fades, and expert beard work done right every time.',
+    title: 'Precision Craft',
+    desc: 'Every cut is executed with care — sharp lines, clean fades, and expert technique on every visit.',
   },
   {
     icon: '◆',
-    title: 'Community Roots',
-    desc: "This address has been a barbershop for over 45 years. We're proud to carry that legacy forward.",
+    title: 'Premium Experience',
+    desc: 'From hot towel shaves to full grooming packages, we elevate every service to a luxury standard.',
   },
   {
     icon: '◇',
-    title: 'Personal Service',
-    desc: 'Every client gets our full attention. No rush, no shortcuts — just great work.',
+    title: 'Personal Attention',
+    desc: 'Every client gets our full focus. No rush, no shortcuts — just outstanding work and genuine care.',
   },
 ]
 
@@ -29,11 +29,11 @@ export default function About() {
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-stone-400 text-xs tracking-[0.2em] uppercase mb-3 font-sans">Our Story</p>
           <h1 className="text-4xl sm:text-5xl text-black tracking-tight mb-4">
-            About Barber's Den
+            About Pristine Barber Studio
           </h1>
           <div className="w-10 h-px bg-black mx-auto mb-4" />
           <p className="text-stone-400 max-w-sm mx-auto text-sm leading-relaxed">
-            A neighborhood institution carrying on 45+ years of barbershop history in Norton Shores.
+            A modern premium barbershop serving Plymouth, Minnesota with elevated grooming and precision technique.
           </p>
         </div>
       </section>
@@ -42,28 +42,28 @@ export default function About() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-3xl sm:text-4xl text-black tracking-tight mb-6 leading-tight">
-              45+ Years of History<br />at This Address
+              Elevated Grooming<br />in Plymouth, MN
             </h2>
             <div className="w-10 h-px bg-black mb-8" />
             <div className="space-y-4 text-stone-500 leading-relaxed text-sm">
               <p>
-                The barbershop at 3141 McCracken St has been serving the men of Norton Shores and the surrounding Muskegon area for over 45 years. Barber's Den, LLC continues that proud tradition — keeping the spirit of the classic American barbershop alive in the heart of the community.
+                Pristine Barber Studio is a professional barbershop located at 36 Nathan Ln N in Plymouth, Minnesota. We are dedicated to providing an elevated grooming experience that combines precision technique with a welcoming, modern atmosphere.
               </p>
               <p>
-                We offer the full range of men's grooming services: precision haircuts, skin and blended fades, beard trims, and combination services — all delivered in a relaxed, no-fuss atmosphere where you can kick back and feel at home.
+                We offer a full range of men's grooming services — precision haircuts, crisp line ups, beard trims, classic hot towel shaves, and premium grooming packages — all delivered with attention to detail and a commitment to excellence.
               </p>
               <p>
-                Whether you've been coming to this address for decades or you're stopping in for the first time, you'll get the same honest, skilled service that has kept this chair busy since the beginning.
+                Whether you're stopping in for a quick line up or treating yourself to our full Premium Grooming experience, every visit at Pristine is about leaving the chair looking and feeling your absolute best.
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-px bg-stone-200">
             {[
-              { num: '45+', label: 'Years of history at this location' },
+              { num: 'Premium', label: 'Grooming studio' },
               { num: 'Tue–Sat', label: 'Open 5 days a week' },
-              { num: '100%', label: 'Traditional barbershop experience' },
-              { num: 'MI', label: 'Proudly serving Norton Shores' },
+              { num: '100%', label: 'Precision-focused experience' },
+              { num: 'MN', label: 'Proudly serving Plymouth' },
             ].map(({ num, label }) => (
               <div key={num} className="bg-white p-8 text-center">
                 <div className="font-serif text-black text-3xl mb-2">{num}</div>
@@ -96,7 +96,7 @@ export default function About() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Come See Us</h2>
           <p className="text-stone-400 mb-10 text-sm font-sans">
-            3141 McCracken St, Norton Shores, MI — Tuesday through Saturday, 10 AM to 6 PM.
+            36 Nathan Ln N, Plymouth, MN — Tuesday through Saturday, 10 AM to 6 PM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

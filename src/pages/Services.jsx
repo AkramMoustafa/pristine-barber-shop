@@ -4,16 +4,22 @@ const categories = [
   {
     title: 'Cuts',
     items: [
-      { name: 'Haircut', price: '$22', desc: 'Precision cut with clippers and/or shears, finished with a style.' },
-      { name: 'Fade', price: '$28', desc: 'Skin, low, mid, or high fade — clean and blended to perfection.' },
-      { name: "Kids' Haircut", price: '$16', desc: 'For kids 12 and under. Quick, friendly, and clean.' },
+      { name: 'Haircut', price: '$25', desc: 'Precision cut with clippers and/or shears, finished with a style.' },
+      { name: 'Kids Haircut', price: '$18', desc: 'For kids 12 and under. Friendly, clean, and stress-free.' },
+      { name: 'Line Up', price: '$15', desc: 'Sharp edge work on the hairline, temples, and neckline.' },
     ],
   },
   {
-    title: 'Beard Services',
+    title: 'Beard & Shave Services',
     items: [
-      { name: 'Beard Trim', price: '$15', desc: 'Shape, line, and detail your beard for a polished look.' },
-      { name: 'Haircut + Beard', price: '$35', desc: 'The complete package — fresh cut and a clean beard trim.' },
+      { name: 'Beard Trim', price: '$18', desc: 'Shape, line, and detail your beard for a polished, refined look.' },
+      { name: 'Hot Towel Shave', price: '$35', desc: 'A classic luxury straight-razor shave with hot towel treatment for the ultimate close finish.' },
+    ],
+  },
+  {
+    title: 'Premium Packages',
+    items: [
+      { name: 'Premium Grooming', price: 'From $55', desc: 'The full Pristine experience — precision haircut, beard trim, and hot towel treatment combined.' },
     ],
   },
 ]
@@ -32,7 +38,7 @@ export default function Services() {
           </h1>
           <div className="w-10 h-px bg-black mx-auto mb-4" />
           <p className="text-stone-400 max-w-sm mx-auto text-sm leading-relaxed">
-            Straightforward services, honest prices. Walk in or book ahead.
+            Premium services, transparent pricing. Walk in or book ahead.
           </p>
         </div>
       </section>
@@ -82,10 +88,10 @@ export default function Services() {
               Book Now
             </button>
             <a
-              href="tel:+12315315120"
+              href="tel:+16464363213"
               className="border border-stone-700 hover:border-white text-white font-normal px-8 py-4 text-sm tracking-wide uppercase transition-colors"
             >
-              (231) 531-5120
+              (646) 436-3213
             </a>
           </div>
         </div>

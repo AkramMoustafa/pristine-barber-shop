@@ -9,10 +9,10 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <span className="text-black text-lg">✂</span>
-              <span className="font-serif text-black font-normal text-lg tracking-normal">Barber's Den</span>
+              <span className="font-serif text-black font-normal text-lg tracking-normal">Pristine Barber Studio</span>
             </div>
             <p className="text-sm leading-relaxed text-stone-400">
-              A traditional barbershop in Norton Shores, Michigan — carrying on over 45 years of history at this location.
+              A premium barbershop in Plymouth, Minnesota — delivering precision cuts, expert beard work, and elevated grooming experiences.
             </p>
           </div>
 
@@ -34,20 +34,20 @@ export default function Footer() {
             <h4 className="font-sans font-normal text-black text-xs tracking-wider uppercase mb-4">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+12315315120" className="hover:text-black transition-colors flex items-center gap-2">
-                  <span>📞</span> (231) 531-5120
+                <a href="tel:+16464363213" className="hover:text-black transition-colors flex items-center gap-2">
+                  <span>📞</span> (646) 436-3213
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <span>📍</span>
-                <span>3141 McCracken St<br />Norton Shores, MI 49441</span>
+                <span>36 Nathan Ln N<br />Plymouth, MN 55441</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 pt-6 border-t border-stone-200 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-stone-300">
-          <span>© {new Date().getFullYear()} Barber's Den, LLC. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Pristine Barber Studio. All rights reserved.</span>
           <div className="flex gap-6">
             <Link to="/" className="hover:text-black transition-colors">Home</Link>
             <Link to="/services" className="hover:text-black transition-colors">Services</Link>
