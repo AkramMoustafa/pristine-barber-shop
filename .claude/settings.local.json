@@ -12,7 +12,12 @@
       "Bash(npx vite *)",
       "Bash(npm run *)",
       "Bash(Start-Sleep -Seconds 4)",
-      "Bash(Get-Content \"C:\\\\Users\\\\ammou\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--barber---Copy\\\\0892a9b3-3d87-4509-97b5-566190427ae3\\\\tasks\\\\b8i1fs4d7.output\" -Tail 20)"
+      "Bash(Get-Content \"C:\\\\Users\\\\ammou\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--barber---Copy\\\\0892a9b3-3d87-4509-97b5-566190427ae3\\\\tasks\\\\b8i1fs4d7.output\" -Tail 20)",
+      "Bash(git stash *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(grep -rn \"#[0-9A-Fa-f]\\\\{3,6\\\\}\\\\|text-stone\\\\|bg-stone\\\\|border-stone\\\\|text-black\\\\|text-white\\\\|bg-white\\\\|bg-black\" --include=\"*.jsx\" --include=\"*.html\" src/ index.html)"
     ]
   }
 }
