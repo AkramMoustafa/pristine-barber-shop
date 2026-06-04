@@ -3,17 +3,14 @@ import { useBooking } from '../context/BookingContext'
 
 const values = [
   {
-    icon: '✂',
     title: 'Precision Craft',
     desc: 'Every cut is executed with care — sharp lines, clean fades, and expert technique on every visit.',
   },
   {
-    icon: '◆',
     title: 'Premium Experience',
     desc: 'From hot towel shaves to full grooming packages, we elevate every service to a luxury standard.',
   },
   {
-    icon: '◇',
     title: 'Personal Attention',
     desc: 'Every client gets our full focus. No rush, no shortcuts — just outstanding work and genuine care.',
   },
@@ -84,7 +81,6 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-stone-200">
             {values.map((v) => (
               <div key={v.title} className="bg-white p-8">
-                <div className="text-2xl mb-4 text-black">{v.icon}</div>
                 <h3 className="text-black text-base mb-3">{v.title}</h3>
                 <p className="text-black text-sm leading-relaxed">{v.desc}</p>
               </div>

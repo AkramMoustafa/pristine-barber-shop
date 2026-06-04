@@ -62,7 +62,7 @@ export default function BookingModal() {
               <p className="font-sans font-normal text-sm tracking-wide uppercase text-black">Call Us</p>
               <p className="text-black text-base mt-0.5 font-sans">(646) 436-3213</p>
             </div>
-            <span className="text-2xl">📞</span>
+            <span className="text-lg text-stone-400">→</span>
           </a>
 
           <div className="border border-stone-100 bg-white px-6 py-4">

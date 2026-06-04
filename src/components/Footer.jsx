@@ -38,12 +38,11 @@ export default function Footer() {
             <h4 className="font-sans font-normal text-black text-xs tracking-wider uppercase mb-4">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+16464363213" className="hover:opacity-60 transition-opacity flex items-center gap-2">
-                  <span>📞</span> (646) 436-3213
+                <a href="tel:+16464363213" className="hover:opacity-60 transition-opacity">
+                  (646) 436-3213
                 </a>
               </li>
-              <li className="flex items-start gap-2">
-                <span>📍</span>
+              <li>
                 <span>36 Nathan Ln N<br />Plymouth, MN 55441</span>
               </li>
             </ul>
