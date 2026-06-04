@@ -93,7 +93,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-24 px-4 bg-[#6F4E37]">
+      <section className="py-24 px-4 bg-[#111111]">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Come See Us</h2>
           <p className="text-white mb-10 text-sm font-sans">

@@ -33,7 +33,7 @@ export default function Contact() {
               </a>
               <a
                 href="tel:+16464363213"
-                className="block w-full bg-[#8B5E3C] hover:bg-[#6F4E37] text-white font-normal text-sm py-3 text-center tracking-wide uppercase transition-colors"
+                className="block w-full bg-[#8B5E3C] hover:bg-[#000000] text-white font-normal text-sm py-3 text-center tracking-wide uppercase transition-colors"
               >
                 Tap to Call
               </a>
@@ -92,7 +92,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-[#6F4E37]">
+      <section className="py-20 px-4 bg-[#111111]">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Book Your Next Appointment</h2>
           <p className="text-white mb-10 text-sm font-sans">

@@ -76,7 +76,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-[#6F4E37]">
+      <section className="py-20 px-4 bg-[#111111]">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Book Your Appointment</h2>
           <p className="text-white mb-8 text-sm font-sans">Mon – Fri 9 AM – 7 PM &nbsp;·&nbsp; Sat 9 AM – 5 PM &nbsp;·&nbsp; Sun 10 AM – 5 PM. Walk-ins always welcome.</p>

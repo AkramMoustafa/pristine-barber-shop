@@ -45,7 +45,7 @@ export default function BookingModal() {
 
           <a
             href="#"
-            className="flex items-center justify-between w-full bg-[#8B5E3C] hover:bg-[#6F4E37] text-white px-6 py-4 transition-colors group"
+            className="flex items-center justify-between w-full bg-[#8B5E3C] hover:bg-[#000000] text-white px-6 py-4 transition-colors group"
           >
             <div>
               <p className="font-sans font-normal text-sm tracking-wide uppercase">Book Online</p>

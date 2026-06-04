@@ -38,7 +38,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           <Link to="/" className="flex items-center gap-3 group">
-            <span className="text-black text-xl transition-colors duration-200 group-hover:text-[#6F4E37]">
+            <span className="text-[#8B5E3C] text-xl">
               ✂
             </span>
 
@@ -60,7 +60,7 @@ export default function Navbar() {
                 to={to}
                 className={`text-sm tracking-wide uppercase font-normal transition-colors duration-200 ${
                   location.pathname === to
-                    ? 'text-black border-b border-black pb-0.5'
+                    ? 'text-[#8B5E3C] border-b border-[#8B5E3C] pb-0.5'
                     : 'text-black hover:opacity-60'
                 }`}
               >
@@ -70,7 +70,7 @@ export default function Navbar() {
 
             <button
               onClick={openBooking}
-              className="ml-2 bg-[#8B5E3C] hover:bg-[#6F4E37] text-white font-normal text-sm px-5 py-2 transition-colors duration-200 tracking-wide uppercase"
+              className="ml-2 bg-[#8B5E3C] hover:bg-[#000000] text-white font-normal text-sm px-5 py-2 transition-colors duration-200 tracking-wide uppercase"
             >
               Book Now
             </button>
@@ -128,7 +128,7 @@ export default function Navbar() {
 
           <button
             onClick={openBooking}
-            className="block w-full bg-[#8B5E3C] hover:bg-[#6F4E37] text-white font-normal text-sm px-5 py-3 text-center tracking-wide uppercase mt-2 transition-colors"
+            className="block w-full bg-[#8B5E3C] hover:bg-[#000000] text-white font-normal text-sm px-5 py-3 text-center tracking-wide uppercase mt-2 transition-colors"
           >
             Book Now
           </button>

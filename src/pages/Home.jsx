@@ -39,14 +39,14 @@ export default function Home() {
             <h1 className="text-6xl sm:text-7xl text-black leading-none tracking-tight mb-6">
               Pristine<br />Barber<br />Studio
             </h1>
-            <div className="w-12 h-px bg-black mb-6" />
+            <div className="w-12 h-px bg-[#8B5E3C] mb-6" />
             <p className="text-base text-black mb-10 leading-relaxed">
               Elevated grooming.<br />Precision craft. Premium results.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <button
                 onClick={openBooking}
-                className="bg-[#8B5E3C] hover:bg-[#6F4E37] text-white font-normal px-8 py-4 text-sm tracking-wide uppercase transition-colors duration-200"
+                className="bg-[#8B5E3C] hover:bg-[#000000] text-white font-normal px-8 py-4 text-sm tracking-wide uppercase transition-colors duration-200"
               >
                 Book Your Appointment
               </button>
@@ -138,7 +138,7 @@ export default function Home() {
             </p>
             <Link
               to="/about"
-              className="inline-block border border-black text-black hover:bg-black hover:text-white font-normal px-6 py-3 text-sm tracking-wide uppercase transition-colors duration-200"
+              className="inline-block border border-[#8B5E3C] text-black hover:bg-[#8B5E3C] hover:text-white font-normal px-6 py-3 text-sm tracking-wide uppercase transition-colors duration-200"
             >
               Learn More
             </Link>
@@ -165,7 +165,7 @@ export default function Home() {
           <div className="text-center mb-14">
             <p className="text-black text-xs tracking-[0.2em] uppercase mb-3 font-sans">Our Space</p>
             <h2 className="text-3xl sm:text-4xl text-black tracking-tight">Inside Pristine Barber Studio</h2>
-            <div className="w-10 h-px bg-black mx-auto mt-6 mb-6" />
+            <div className="w-10 h-px bg-[#8B5E3C] mx-auto mt-6 mb-6" />
             <p className="text-black max-w-lg mx-auto text-sm leading-relaxed">
               Take a look inside our modern barber studio and see the environment where we deliver premium grooming services.
             </p>
@@ -175,7 +175,7 @@ export default function Home() {
       </section>
 
       {/* Booking CTA */}
-      <section className="py-24 px-4 bg-[#6F4E37]">
+      <section className="py-24 px-4 bg-[#111111]">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-white text-xs tracking-[0.2em] uppercase mb-4 font-sans">Get Started</p>
           <h2 className="text-3xl sm:text-4xl text-white tracking-tight mb-4">
