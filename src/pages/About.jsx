@@ -27,12 +27,12 @@ export default function About() {
 
       <section className="py-20 px-4 bg-white border-b border-stone-200">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-stone-400 text-xs tracking-[0.2em] uppercase mb-3 font-sans">Our Story</p>
+          <p className="text-black text-xs tracking-[0.2em] uppercase mb-3 font-sans">Our Story</p>
           <h1 className="text-4xl sm:text-5xl text-black tracking-tight mb-4">
             About Pristine Barber Studio
           </h1>
-          <div className="w-10 h-px bg-black mx-auto mb-4" />
-          <p className="text-stone-400 max-w-sm mx-auto text-sm leading-relaxed">
+          <div className="w-10 h-px bg-[#8B5E3C] mx-auto mb-4" />
+          <p className="text-black max-w-sm mx-auto text-sm leading-relaxed">
             A modern premium barbershop serving Plymouth, Minnesota with elevated grooming and precision technique.
           </p>
         </div>
@@ -44,8 +44,8 @@ export default function About() {
             <h2 className="text-3xl sm:text-4xl text-black tracking-tight mb-6 leading-tight">
               Elevated Grooming<br />in Plymouth, MN
             </h2>
-            <div className="w-10 h-px bg-black mb-8" />
-            <div className="space-y-4 text-stone-500 leading-relaxed text-sm">
+            <div className="w-10 h-px bg-[#8B5E3C] mb-8" />
+            <div className="space-y-4 text-black leading-relaxed text-sm">
               <p>
                 Pristine Barber Studio is a professional barbershop located at 36 Nathan Ln N in Plymouth, Minnesota. We are dedicated to providing an elevated grooming experience that combines precision technique with a welcoming, modern atmosphere.
               </p>
@@ -67,35 +67,36 @@ export default function About() {
             ].map(({ num, label }) => (
               <div key={num} className="bg-white p-8 text-center">
                 <div className="font-serif text-black text-3xl mb-2">{num}</div>
-                <div className="text-stone-400 text-xs leading-relaxed font-sans">{label}</div>
+                <div className="text-black text-xs leading-relaxed font-sans">{label}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-24 px-4 bg-stone-50 border-t border-stone-200">
+      <section className="py-24 px-4 bg-white border-t border-stone-200">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="text-stone-400 text-xs tracking-[0.2em] uppercase mb-3 font-sans">What We Stand For</p>
+            <p className="text-black text-xs tracking-[0.2em] uppercase mb-3 font-sans">What We Stand For</p>
             <h2 className="text-3xl text-black tracking-tight">Our Values</h2>
+            <div className="w-10 h-px bg-[#8B5E3C] mx-auto mt-4" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-stone-200">
             {values.map((v) => (
               <div key={v.title} className="bg-white p-8">
                 <div className="text-2xl mb-4 text-black">{v.icon}</div>
                 <h3 className="text-black text-base mb-3">{v.title}</h3>
-                <p className="text-stone-400 text-sm leading-relaxed">{v.desc}</p>
+                <p className="text-black text-sm leading-relaxed">{v.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-24 px-4 bg-black">
+      <section className="py-24 px-4 bg-[#6F4E37]">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Come See Us</h2>
-          <p className="text-stone-400 mb-10 text-sm font-sans">
+          <p className="text-white mb-10 text-sm font-sans">
             36 Nathan Ln N, Plymouth, MN — Tuesday through Saturday, 10 AM to 6 PM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -107,7 +108,7 @@ export default function About() {
             </button>
             <Link
               to="/contact"
-              className="border border-stone-700 hover:border-white text-white font-normal px-8 py-4 text-sm tracking-wide uppercase transition-colors"
+              className="border border-white/50 hover:border-white text-white font-normal px-8 py-4 text-sm tracking-wide uppercase transition-colors"
             >
               Get Directions
             </Link>
