@@ -39,7 +39,7 @@ export default function ShopGallery({ images = [] }) {
           >
             <img
               src={src}
-              alt={`Pristine Barber Studio interior — photo ${i + 1}`}
+              alt={`Cutting Station interior — photo ${i + 1}`}
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
               loading="lazy"
               decoding="async"
@@ -68,7 +68,7 @@ export default function ShopGallery({ images = [] }) {
           >
             <img
               src={images[lightboxIndex]}
-              alt={`Pristine Barber Studio interior — photo ${lightboxIndex + 1}`}
+              alt={`Cutting Station interior — photo ${lightboxIndex + 1}`}
               className="max-w-full max-h-[85vh] object-contain rounded-sm shadow-2xl"
             />
 

@@ -44,7 +44,7 @@ export default function HeroCarousel({ images = [] }) {
         >
           <img
             src={src}
-            alt={`Pristine Barber Studio — slide ${i + 1}`}
+            alt={`Cutting Station — slide ${i + 1}`}
             className="w-full h-full object-cover"
             loading={i === 0 ? 'eager' : 'lazy'}
             decoding="async"

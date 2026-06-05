@@ -19,7 +19,7 @@ const categories = [
   {
     title: 'Premium Packages',
     items: [
-      { name: 'Premium Grooming', price: 'From $55', desc: 'The full Pristine experience — precision haircut, beard trim, and hot towel treatment combined.' },
+      { name: 'Premium Grooming', price: 'From $55', desc: 'The full Cutting Station experience — precision haircut, beard trim, and hot towel treatment combined.' },
     ],
   },
 ]
@@ -79,7 +79,7 @@ export default function Services() {
       <section className="py-20 px-4 bg-[#111111]">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Book Your Appointment</h2>
-          <p className="text-white mb-8 text-sm font-sans">Mon – Fri 9 AM – 7 PM &nbsp;·&nbsp; Sat 9 AM – 5 PM &nbsp;·&nbsp; Sun 10 AM – 5 PM. Walk-ins always welcome.</p>
+          <p className="text-white mb-8 text-sm font-sans">Tue–Thu 8AM–7PM &nbsp;·&nbsp; Fri 6:30AM–7PM &nbsp;·&nbsp; Sat 6AM–5PM. Closed Mon &amp; Sun. Walk-ins always welcome.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={openBooking}
@@ -88,10 +88,10 @@ export default function Services() {
               Book Now
             </button>
             <a
-              href="tel:+16464363213"
+              href="tel:+12053318778"
               className="border border-white/50 hover:border-white text-white font-normal px-8 py-4 text-sm tracking-wide uppercase transition-colors"
             >
-              (646) 436-3213
+              (205) 331-8778
             </a>
           </div>
         </div>

@@ -44,11 +44,11 @@ export default function Navbar() {
 
             <div className="leading-tight">
               <div className="font-serif text-black font-normal text-lg tracking-normal">
-                Pristine Barber Studio
+                Cutting Station
               </div>
 
               <div className="text-black text-xs tracking-wide uppercase font-sans font-normal">
-                Plymouth, MN
+                Northport, AL
               </div>
             </div>
           </Link>

@@ -26,11 +26,11 @@ export default function About() {
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-black text-xs tracking-[0.2em] uppercase mb-3 font-sans">Our Story</p>
           <h1 className="text-4xl sm:text-5xl text-black tracking-tight mb-4">
-            About Pristine Barber Studio
+            About Cutting Station
           </h1>
           <div className="w-10 h-px bg-[#8B5E3C] mx-auto mb-4" />
           <p className="text-black max-w-sm mx-auto text-sm leading-relaxed">
-            A modern premium barbershop serving Plymouth, Minnesota with elevated grooming and precision technique.
+            A neighborhood barber shop serving Northport, Alabama with professional cuts, fades, and grooming services.
           </p>
         </div>
       </section>
@@ -39,28 +39,28 @@ export default function About() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-3xl sm:text-4xl text-black tracking-tight mb-6 leading-tight">
-              Elevated Grooming<br />in Plymouth, MN
+              Your Barber Shop<br />in Northport, AL
             </h2>
             <div className="w-10 h-px bg-[#8B5E3C] mb-8" />
             <div className="space-y-4 text-black leading-relaxed text-sm">
               <p>
-                Pristine Barber Studio is a professional barbershop located at 36 Nathan Ln N in Plymouth, Minnesota. We are dedicated to providing an elevated grooming experience that combines precision technique with a welcoming, modern atmosphere.
+                Cutting Station is a professional barber shop located at 902 Main Ave in Northport, Alabama. We're your neighborhood spot for quality haircuts, sharp fades, beard trims, and grooming services — all at fair prices with a welcoming atmosphere.
               </p>
               <p>
-                We offer a full range of men's grooming services — precision haircuts, crisp line ups, beard trims, classic hot towel shaves, and premium grooming packages — all delivered with attention to detail and a commitment to excellence.
+                Our barbers are skilled and attentive, taking time to understand exactly what you want. Whether it's your first visit or you've been coming for years, every client gets the same professional treatment and care.
               </p>
               <p>
-                Whether you're stopping in for a quick line up or treating yourself to our full Premium Grooming experience, every visit at Pristine is about leaving the chair looking and feeling your absolute best.
+                We're proud to serve the Northport community. Stop by, give us a call, or book ahead — walk-ins are always welcome during shop hours.
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-px bg-stone-200">
             {[
-              { num: 'Premium', label: 'Grooming studio' },
-              { num: 'Mon–Sun', label: 'Open 7 days a week' },
-              { num: '100%', label: 'Precision-focused experience' },
-              { num: 'MN', label: 'Proudly serving Plymouth' },
+              { num: '4.7★', label: 'Google Rating' },
+              { num: 'Tue–Sat', label: 'Open 5 days a week' },
+              { num: '100%', label: 'Precision-focused service' },
+              { num: 'AL', label: 'Proudly serving Northport' },
             ].map(({ num, label }) => (
               <div key={num} className="bg-white p-8 text-center">
                 <div className="font-serif text-black text-3xl mb-2">{num}</div>
@@ -93,7 +93,7 @@ export default function About() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl text-white tracking-tight mb-4">Come See Us</h2>
           <p className="text-white mb-10 text-sm font-sans">
-            36 Nathan Ln N, Plymouth, MN — Monday through Sunday, 9 AM to 7 PM.
+            902 Main Ave, Northport, AL — Tue–Thu 8AM–7PM · Fri 6:30AM–7PM · Sat 6AM–5PM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

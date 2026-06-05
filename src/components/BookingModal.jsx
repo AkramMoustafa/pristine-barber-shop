@@ -37,7 +37,7 @@ export default function BookingModal() {
         </button>
 
         <div className="border-b border-stone-200 px-8 py-6">
-          <p className="text-black text-xs tracking-wider uppercase mb-1 font-sans">Pristine Barber Studio</p>
+          <p className="text-black text-xs tracking-wider uppercase mb-1 font-sans">Cutting Station</p>
           <h2 className="text-2xl text-black">Book an Appointment</h2>
         </div>
 
@@ -55,12 +55,12 @@ export default function BookingModal() {
           </a>
 
           <a
-            href="tel:+16464363213"
+            href="tel:+12053318778"
             className="flex items-center justify-between w-full border border-stone-200 hover:border-[#8B5E3C] px-6 py-4 transition-colors"
           >
             <div>
               <p className="font-sans font-normal text-sm tracking-wide uppercase text-black">Call Us</p>
-              <p className="text-black text-base mt-0.5 font-sans">(646) 436-3213</p>
+              <p className="text-black text-base mt-0.5 font-sans">(205) 331-8778</p>
             </div>
             <span className="text-lg text-stone-400">→</span>
           </a>
@@ -68,7 +68,7 @@ export default function BookingModal() {
           <div className="border border-stone-100 bg-white px-6 py-4">
             <p className="font-sans font-normal text-sm text-black mb-1">Walk-ins Welcome</p>
             <p className="text-black text-xs leading-relaxed font-sans">
-              36 Nathan Ln N, Plymouth, MN 55441
+              902 Main Ave, Northport, AL 35476
             </p>
           </div>
         </div>
@@ -76,16 +76,20 @@ export default function BookingModal() {
         <div className="border-t border-stone-200 px-8 py-4 bg-white">
           <p className="text-black text-xs uppercase tracking-wider mb-2 font-sans">Hours</p>
           <div className="flex justify-between text-sm font-sans">
-            <span className="text-black">Mon – Fri</span>
-            <span className="text-black">9:00 AM – 7:00 PM</span>
+            <span className="text-black">Tue – Thu</span>
+            <span className="text-black">8:00 AM – 7:00 PM</span>
+          </div>
+          <div className="flex justify-between text-sm mt-1 font-sans">
+            <span className="text-black">Friday</span>
+            <span className="text-black">6:30 AM – 7:00 PM</span>
           </div>
           <div className="flex justify-between text-sm mt-1 font-sans">
             <span className="text-black">Saturday</span>
-            <span className="text-black">9:00 AM – 5:00 PM</span>
+            <span className="text-black">6:00 AM – 5:00 PM</span>
           </div>
           <div className="flex justify-between text-sm mt-1 font-sans">
-            <span className="text-black">Sunday</span>
-            <span className="text-black">10:00 AM – 5:00 PM</span>
+            <span className="text-black">Mon &amp; Sun</span>
+            <span className="text-black">Closed</span>
           </div>
         </div>
       </div>
